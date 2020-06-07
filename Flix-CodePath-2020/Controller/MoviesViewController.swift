@@ -52,3 +52,13 @@ extension MoviesViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
 }
+
+extension MoviesViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        let controller = segue.destination as! MovieDetailsViewController
+        controller.movie = movie
+    }
+}
