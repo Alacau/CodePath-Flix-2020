@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		18653EE6F26418C73E408619 /* Pods_Flix_CodePath_2020_Flix_CodePath_2020UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBD69B0F6C8974B92F1D8B8 /* Pods_Flix_CodePath_2020_Flix_CodePath_2020UITests.framework */; };
 		4433F2DB248C8D6500CE01C6 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4433F2DA248C8D6500CE01C6 /* MovieDetailsViewController.swift */; };
+		445AABC22496A62B00B6724A /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445AABC12496A62B00B6724A /* SuperHeroViewController.swift */; };
+		445AABC42496A86E00B6724A /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445AABC32496A86E00B6724A /* MovieGridCell.swift */; };
 		447B59E3248C7D19003C822F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B59E2248C7D19003C822F /* AppDelegate.swift */; };
 		447B59E5248C7D19003C822F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B59E4248C7D19003C822F /* SceneDelegate.swift */; };
 		447B59EA248C7D19003C822F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447B59E8248C7D19003C822F /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		0EA5672A10DDA0FB82709C75 /* Pods-Flix-CodePath-2020-Flix-CodePath-2020UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix-CodePath-2020-Flix-CodePath-2020UITests.debug.xcconfig"; path = "Target Support Files/Pods-Flix-CodePath-2020-Flix-CodePath-2020UITests/Pods-Flix-CodePath-2020-Flix-CodePath-2020UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3EBD69B0F6C8974B92F1D8B8 /* Pods_Flix_CodePath_2020_Flix_CodePath_2020UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix_CodePath_2020_Flix_CodePath_2020UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4433F2DA248C8D6500CE01C6 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		445AABC12496A62B00B6724A /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
+		445AABC32496A86E00B6724A /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		447B59DF248C7D19003C822F /* Flix-CodePath-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flix-CodePath-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		447B59E2248C7D19003C822F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		447B59E4248C7D19003C822F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				447B5A1A248C81F4003C822F /* MovieCell.swift */,
+				445AABC32496A86E00B6724A /* MovieGridCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 			children = (
 				447B5A15248C8163003C822F /* MoviesViewController.swift */,
 				4433F2DA248C8D6500CE01C6 /* MovieDetailsViewController.swift */,
+				445AABC12496A62B00B6724A /* SuperHeroViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -443,7 +449,9 @@
 				447B59E3248C7D19003C822F /* AppDelegate.swift in Sources */,
 				4433F2DB248C8D6500CE01C6 /* MovieDetailsViewController.swift in Sources */,
 				447B5A14248C7F7F003C822F /* API.swift in Sources */,
+				445AABC42496A86E00B6724A /* MovieGridCell.swift in Sources */,
 				447B5A1B248C81F4003C822F /* MovieCell.swift in Sources */,
+				445AABC22496A62B00B6724A /* SuperHeroViewController.swift in Sources */,
 				447B59E5248C7D19003C822F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
